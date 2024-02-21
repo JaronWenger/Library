@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Background color of the page */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.delete-button {
+    background-color: #727272;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.read-toggle-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the checkbox */
+.read-toggle {
+    margin-right: 5px; /* Adjust spacing between checkbox and label */
+}
+
+/* Style for the label next to the checkbox */
+.read-status-label {
+    font-weight: bold; /* Make the label bold */
+}
