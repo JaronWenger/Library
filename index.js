@@ -94,6 +94,10 @@ function addNewBookRow() {
         readStatusLabel.textContent = this.checked ? 'have read' : 'not read';
     });
 
+
+    const lastRow = libraryTableBody.lastElementChild;
+    libraryTableBody.removeChild(lastRow);
+    
     libraryTableBody.appendChild(newRow);
 }
 
